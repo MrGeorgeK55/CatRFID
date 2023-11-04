@@ -1,4 +1,4 @@
-# CatRFID
+# Cat RFID Door
 
 
 I'm not a good programmer, so I don't know if this code is the best way to do this, but it works and took me a lot of time to make it work, so I hope you like it.
