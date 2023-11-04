@@ -24,7 +24,7 @@ Give thanks to my cat Eliott, which is the reason why I built this project.
 
 There are 3 buttons: the debug button, the register button, and the manual open button.
 
-The manual open button opens the door for 5 seconds and then closes it.
+The manual open button unlocks the door for 5 seconds and then locks it.
 
 The registration button, which should register a new card, also detects the length of the key to save it in the EEPROM memory.
 This ensures that many different RFID cards can be registered.
@@ -48,10 +48,10 @@ The reader has a timer, so if it does not detect any cards, it stops reading and
 If the card is correct, it unlocks the door, moving the servo motors to the open position.
 This can also be achieved with a solenoid, but they use a lot of power and different voltages, so I prefer to use servo motors.
 If the card is not correct, it does nothing and takes a cooldown.
-This is to avoid any incorrect data could open the door.
+This is to avoid any incorrect data could unlock the door.
 
 If the cat decides to enter the house, the magnetic sensor detects the door opening and keeps the door unlocked until the flap door isn't moving in the closed position for 3 seconds.
-This is to avoid the door closes while the cat is entering the house.
+This is to avoid the door locks while the cat is entering the house.
 
 If the cat unlocks the door but does not enter the house, the door locks automatically after 30 seconds.
 Also, the sensors know if the door is opening to the outside or inside, but I have not added use for that feature yet.
