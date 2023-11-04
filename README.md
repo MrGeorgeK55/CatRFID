@@ -76,10 +76,11 @@ Also, remember that the eeprom has a limited number of writes, so be careful wit
 ## Things to do:
   
 + Feed my cat ✔️
++ Upload the Schematic...
 + Add a buzzer to make a sound when the door is unlocked
 + Use the built-in LED to show the status of the door, or at least "I'm working."
 + Add more memory to save multiple cards.
-+ Add wifi functionality to send notifications to the phone (I used a Telegram bot in another project, so maybe I will use it here too).
++ Add Wi-Fi functionality to send notifications to the phone (I used a Telegram bot in another project, so maybe I will use it here too).
 + Give usage to the inside and outside sensors (for now only works as door activity sensor).
 + Build an unrelated automatic feeder for my cat
 + Get someone as a human sacrifice as my cat demands.
