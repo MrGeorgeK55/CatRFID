@@ -6,7 +6,7 @@ I'm a fan of creating unnecessarily complicated solutions to simple problems, so
 
 You are free to use it and modify it as you want, but please at least leave a thanks in the comments.
 honestly, I dont care if you don't do it, but it would be nice to read it, or at least
-Give thanks to my cat Eliott, which is the reason to build this project.
+Give thanks to my cat Eliott, which is the reason why I built this project.
 
  ![20231015_193042](https://github.com/MrGeorgeK55/CatRFID/assets/103085400/0b417380-127d-45ae-9fa8-ae1a74eb8e03)
 
