@@ -26,9 +26,8 @@ There are 3 buttons: the debug button, the register button, and the manual open 
 
 The manual open button unlocks the door for 5 seconds and then locks it.
 
-The registration button, which should register a new card, also detects the length of the key to save it in the EEPROM memory.
-This ensures that many different RFID cards can be registered.
-This is to avoid having to connect the Arduino to the computer every time you want to register a card.
+The registration button, it register a new card by getting the ID, also detects the length of the key to save it in the EEPROM memory.
+This ensures that many different RFID cards can be registered and avoids having to connect the Arduino to the computer every time you want to register a card.
 
 The debug button shows all the variables and the EEPROM memory on the serial monitor.
   
@@ -67,10 +66,10 @@ A code exists for a transistor that I tried to use in the hall sensors because t
 ## Additional notes:
   
 To avoid the servo motors getting stuck or shaking, the position has an offset of 20 degrees.
-You should build your custom RFID antenna, and I barely know how I do it, so don't ask me how.
+You should build your custom RFID antenna, and I barely know how I did it, so don't ask me how.
 If you have problems with the eeprom memory (like I did) in any ESP32, make sure you are using the right library or the exact board when you are flashing the code.
 My problem was that I wasn't defining the correct amount of flash memory for the board, so the eeprom memory wasn't working even if the code was working fine.
-Also, remember that the eeprom has a limited number of writes, so be careful with that.
+Also, the ESP32 don't have EEPROM, it emulates the memory and you need to Commit the changes, and remember that the EEPROM has a limited number of writes, so be careful with that.
   
   
 ## Things to do:
