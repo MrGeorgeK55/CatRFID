@@ -32,7 +32,7 @@ This ensures that many different RFID cards can be registered and avoids having 
 The debug button shows all the variables and the EEPROM memory on the serial monitor.
   
 ### Begining
-  
+
 When you power the Arduino, it reads the EEPROM memory to get the registered card, calibrates the hall sensors, and sets the servos to the closed position.
 This is the setup, along with all the variables.
 
@@ -64,12 +64,12 @@ A code exists for a transistor that I tried to use in the hall sensors because t
   
   
 ## Additional notes:
-  
-To avoid the servo motors getting stuck or shaking, the position has an offset of 20 degrees.
-You should build your custom RFID antenna, and I barely know how I did it, so don't ask me how.
-If you have problems with the eeprom memory (like I did) in any ESP32, make sure you are using the right library or the exact board when you are flashing the code.
-My problem was that I wasn't defining the correct amount of flash memory for the board, so the eeprom memory wasn't working even if the code was working fine.
-Also, the ESP32 don't have EEPROM, it emulates the memory and you need to Commit the changes, and remember that the EEPROM has a limited number of writes, so be careful with that.
+
+To avoid the servo motors getting stuck or shaking, the position has an offset of 20 degrees.  
+You should build your custom RFID antenna, and I barely know how I did it, so don't ask me how.  
+If you have problems with the eeprom memory (like I did) in any ESP32, make sure you are using the right library or the exact board when you are flashing the code.  
+My problem was that I wasn't defining the correct amount of flash memory for the board, so the eeprom memory wasn't working even if the code was working fine.  
+Also, the ESP32 don't have EEPROM, it emulates the memory and you need to Commit the changes, and remember that the EEPROM has a limited number of writes, so be careful with that.  
   
   
 ## Things to do:
