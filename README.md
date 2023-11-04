@@ -14,10 +14,10 @@ Give thanks to my cat Eliott, which is the reason to build this project.
 ## Components
 + a proximity sensor (Hcsr 501 Pir Sensor Module)
 + two magnetic sensors (Digital Bipolar Magnetic Hall-effect Sensor SS41)  
-+ a registration button  
-+ a manual opening button  
++ two push buttons (three if you want to add the Debug Button)  
 + an RFID card reader (RDM6300; this is important because it allows an external antenna). [Library](https://github.com/arduino12/rdm6300)
-+ two servo motors (any would work, but I used the MG90S)  
++ two servo motors (any would work, but I used the MG90S)
++ pasive components (resistors, capacitors, etc..)
 + an Arduino of your choice, but make sure it is capable of PMW signaling to the servos and has enough pins for all the sensors (I used a WeMos D1 mini with an ESP8266EX chip)  
 
 ## Explanation:
